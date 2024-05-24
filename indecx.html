@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="me.jpg" class="profile-img">
+    <div class="header-info">
+        <h1>Carina de Sousa Oliveira</h1>
+        <p>28 anos, Santo André, SP</p>
+        <p>Email: carinaddsousa@gmail.com</p>
+        <p>Telefone: (11) 97683-5325</p>
+    </div>
+</header>
+<hr>
+
+<main>
+    <section id="objetivo" class="secao">
+        <h2 class="animated-header">Objetivo</h2>
+        <article>
+            <p>Técnico em Informática/ Analista de TI / Gestão de TI</p>
+        </article>
+    </section>
+    <hr>
+
+    <section id="formacao" class="secao">
+        <h2 class="animated-header">Formação Acadêmica</h2>
+        <article>
+            <h3>Universidade Cruzeiro do Sul</h3>
+            <p><strong>Curso:</strong> Gestão da Tecnologia da Informação</p>
+            <p><strong>Período:</strong> 03/2023 - Cursando</p>
+            
+            <h3>Universidade Cruzeiro do Sul</h3>
+            <p><strong>Curso:</strong> Técnico em Informática</p>
+            <p><strong>Período:</strong> 08/2023 - Cursando</p>
+        </article>
+    </section>
+    <hr>
+
+    <section id="experiencia" class="secao">
+        <h2 class="animated-header">Experiência Profissional</h2>
+        <article>
+            <h3>Hapvida NotreDame Intermédica</h3>
+            <p><strong>Cargo:</strong> Recepcionista Ambulatorial</p>
+            <p><strong>Período:</strong> 16/11/2020 - Atual</p>
+                    
+            <h3>Hospital e Maternidade São José do ABC</h3>
+            <p><strong>Cargo:</strong> Auxiliar Administrativo</p>
+            <p><strong>Período:</strong> 10/05/2017 à 20/01/2021</p>
+        </article>
+    </section>
+    <hr>
+
+    <section id="cursos" class="secao">
+        <h2 class="animated-header">Cursos Extracurriculares</h2>
+        <ul>
+            <li><strong>Idiomas:</strong> Inglês e Espanhol - Básico e Intermediário</li>
+            <li><strong> Informática:</strong> Digitação; Pacote Office; Assistente de Suporte de Computadores;
+            Cibersegurança; Introdução à Lógica de Programação</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="habilidades" class="secao">
+        <h2 class="animated-header">Informações Adicionais</h2>
+        <article>
+            <p>Experiência em atendimento ao público na área da saúde e demais rotinas administrativas;</p>
+            <p>Vivência em setores de internação; pronto socorro/pronto atendimento; ambulatório e arquivo;</p>
+            <p>Conhecimento nos sistemas TASY, MKT, MV e PABX.</p>
+            <p>Boa apresentação; facilidade de comunicação, de trabalhar em equipe e de adaptação a novos desafios; bom relacionamento interpessoal</p>
+        </article>
+    </section>
+
+    <section id="contato" class="secao">
+        <h2 class="animated-header">Contato</h2>
+        <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+<footer>
+    &copy; Currículo Atualizado 2024
+</footer>
+
+</body>
+</html>
